@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeBys - Innovative Tech Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @font-face {
+      font-family: 'Quantify'; /* Define the name of your font family */
+      src: url('Quantify.ttf') format('opentype'); /* Specify the path to your font file */
+    }
+
+    /* Additional styling using your custom font */
+    h1 {
+      font-family: 'Quantify', bold; /* Apply the font to heading elements */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo -->
+    <img src="logo.png" alt="WeBys Logo" class="logo">
+    <!-- Navigation Menu -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Updated home section with background photo -->
+  <section id="opacity" class="section-inner flex-center feature" style="height: 776px; background-image: url('background.jpg'); background-size: cover; background-position: center;">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Empowering Innovation <br>Through Technology Solutions</h1>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </section>
+  <!-- End of updated home section -->
+
+  <div id="scroll-button" class="scroll-button">
+    <a href="#services">
+      <span class="icon">&#x22EE;</span> <!-- Unicode for downward arrow -->
+    </a>
+  </div>
+
+  <section id="opacity-hero" class="section-inner flex-center feature" style="height: 776px; display: flex; background-image: url('software.jpg'); background-size: cover; background-position: center;">
+    <div class="overlay-hero"></div>
+    <div class="content-hero" style="display: flex; flex-direction: column; justify-content: center; width: 50%; padding: 0 20px;">
+      <h1>Transform Your Ideas Into Reality with <br> Our Expertise in IoT, AI, and <br> Software Development</h1>
+      <a href="#services" class="hero-btn">Explore Our Services</a>
+    </div>
+    <div style="width: 50%;"></div> <!-- Empty div for spacing -->
+  </section>
+  
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 WeBys. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
